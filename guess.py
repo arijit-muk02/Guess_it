@@ -10,6 +10,7 @@ def generate_code():
     digits= [str(num) for num in range(10)]
     #to shuffle the digits from 0 to 9
     random.shuffle(digits)
+    #to get the first 3 digits
     return digits[:3]
 
 #to generate clues
